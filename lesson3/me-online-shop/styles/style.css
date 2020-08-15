@@ -1,3 +1,68 @@
-body {
+body{
     background-color: #f8f8f8;
+}
+
+.menu a{
+    text-decoration: none;
+    color:maroon;
+    font-size: 24px;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 900;
+
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+form input{
+    width: 300px;
+    height: 20px;
+    color: black;
+    background-color: lightsalmon;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: sienna;
+    color: ivory;
+    font-size: 18px;
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+}
+
+h3.desc{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+p.short{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    line-height: 16px;
+}
+
+p.long{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+ul.spec li{
+    color:dimgray;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    list-style-image: url(../images/mark.png);
 }
