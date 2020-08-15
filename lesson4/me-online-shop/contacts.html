@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Контакты</title>
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <hr>
+
+        <form action="#">
+            <fieldset>
+                <legend>Напишите нам</legend>
+
+                <label for="#userName">Ваше имя</label><br>
+                <input type="text" id="#userName" placeholder="Имя пользователя" required><br>
+                <label for="#userEmail">Ваш email</label><br>
+                <input type="email" id="#userEmail" placeholder="Email" required><br>
+                <label for="#messageName">Тема обращения</label><br>
+                <select name="topic" id="#messageName">
+                    <option value="1">Задать вопрос</option>
+                    <option value="2">Написать пожелание</option>
+                    <option value="3">Поблагодарить</option>
+                    <option value="4">Написать жалобу</option>
+                </select><br>
+                <label for="#messageBody">Ваше сообщение </label><br>
+                <textarea cols="80" rows="10" maxlength="1000" id="#messageBody"></textarea>
+            </fieldset>
+            <input type="submit">
+        </form>
+            <h2>Адрес</h2>
+            <p>Телефон: +7(800)888-88-88</p>
+            <p>Адрес: г. Город, ул. Улица, д.1, офис 101</p>
+            <p>Email: info@exemple.com</p>
+            <p>Как нас найти:</p>
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7acc99f92b47a68ae76b8f7661bf614edd892ba73fe1a75c6e65ad3c22736d5d&amp;width=700&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+            </script>
+            <br>
+    <hr>
+    <p>&copy; Все права защищены</p>
+</body>
+
+</html>
