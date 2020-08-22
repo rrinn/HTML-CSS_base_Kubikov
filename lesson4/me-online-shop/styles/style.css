@@ -2,6 +2,16 @@ body{
     background-color: #f8f8f8;
 }
 
+.logo img{
+    width: 100px;
+    
+}
+
+.header a{
+    font-size: 24px;
+    color: #5a3a79f5;
+}
+
 .menu a{
     text-decoration: none;
     color:maroon;
@@ -10,6 +20,10 @@ body{
     font-variant: small-caps;
     font-weight: 900;
 
+}
+
+.menu a:hover{
+    color: violet;
 }
 
 .menu li{
@@ -33,7 +47,12 @@ input[type="submit"]{
     font-size: 18px;
 }
 
-input[type="text"]{
+input:focus[type="email"]{
+    color: ivory;
+    background-color:darkblue;
+}
+
+input, textarea{
     text-transform: capitalize;
 }
 
@@ -65,4 +84,18 @@ ul.spec li{
     font-weight: 100;
     line-height: 28px;
     list-style-image: url(../images/mark.png);
+}
+.unitImg{
+    outline: 5px solid silver;
+}
+
+.unitImg:hover{
+    outline: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
 }

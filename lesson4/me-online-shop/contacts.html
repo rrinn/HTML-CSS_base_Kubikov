@@ -9,11 +9,21 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+    <div class="header">
+        <a href="index.html">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                <span>Онлайн-магазин "Мир гаджетов"</span>
+            </div>
+        </a>
+        <div class="menu">
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
     <hr>
 
         <form action="#">
@@ -23,7 +33,7 @@
                 <label for="#userName">Ваше имя</label><br>
                 <input type="text" id="#userName" placeholder="Имя пользователя" required><br>
                 <label for="#userEmail">Ваш email</label><br>
-                <input type="email" id="#userEmail" placeholder="Email" required><br>
+                <input type="email" id="#userEmail" placeholder="Ваш Email" required><br>
                 <label for="#messageName">Тема обращения</label><br>
                 <select name="topic" id="#messageName">
                     <option value="1">Задать вопрос</option>
@@ -32,7 +42,7 @@
                     <option value="4">Написать жалобу</option>
                 </select><br>
                 <label for="#messageBody">Ваше сообщение </label><br>
-                <textarea cols="80" rows="10" maxlength="1000" id="#messageBody"></textarea>
+                <textarea cols="80" rows="10" maxlength="1000" id="#messageBody" placeholder="ваше сообщение"></textarea>
             </fieldset>
             <input type="submit">
         </form>
@@ -45,8 +55,12 @@
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7acc99f92b47a68ae76b8f7661bf614edd892ba73fe1a75c6e65ad3c22736d5d&amp;width=700&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
             </script>
             <br>
-    <hr>
-    <p>&copy; Все права защищены</p>
+    <div class="footer">
+        <hr>
+        <p>
+            &copy; Все права защищены
+        </p>
+    </div>
 </body>
 
 </html>

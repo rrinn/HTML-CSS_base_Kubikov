@@ -9,27 +9,38 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="../catalog.html">Каталог</a></li>
-        <li><a href="../contacts.html">Контакты</a></li>
-    </ul>
+    <div class="header">
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo">
+                <span>Онлайн-магазин "Мир гаджетов"</span>
+            </div>
+        </a>
+        <div class="menu">
+            <ul class="menu">
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="../catalog.html">Каталог</a></li>
+                <li><a href="../contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
     <hr>
     <h1>Смартфоны</h1>
     <h2>Смартфон vivo X50 Pro 8/256GB</h2>
-    <a href="../images/orig_L.png"><img src="../images/orig_s.png" alt="Смартфон vivo X50 Pro 8/256GB"></a>
+    <a href="../images/orig_L.png"><img src="../images/orig_s.png" class="unitImg"
+            alt="Смартфон vivo X50 Pro 8/256GB"></a>
     <h3 class="desc">Описание</h3>
     <p class="short">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla similique nesciunt iusto vero repellat earum eum
         expedita hic, pariatur vitae.
     </p>
     <h3 class="desc">Характеристики</h3>
-        <ul class="spec">
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
-            <li>Nulla similique nesciunt iusto vero repellat earum eum expedita hic, pariatur vitae.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
-        </ul>
+    <ul class="spec">
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+        <li>Nulla similique nesciunt iusto vero repellat earum eum expedita hic, pariatur vitae.</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+    </ul>
     <h3 class="desc">Подробное описание</h3>
     <p class="long">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Similique voluptatum, facilis rerum aliquid
@@ -38,10 +49,89 @@
         ipsam,
         amet suscipit saepe, quam maxime dolor accusamus voluptas?
     </p>
+    <table>
+        <thead>
+            <caption>Технические характеристики</caption>
+            <tr>
+                <th height="50">Заголовок 1</th>
+                <th>Заголовок 2</th>
+                <th>Заголовок 3</th>
+                <th>Заголовок 4</th>
+                <th>Заголовок 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    текст ячейки1
+                </td>
+                <td>
+                    текст ячейки2
+                </td>
+                <td rowspan="2">
+                    текст ячейки3
+                </td>
+                <td>
+                    текст ячейки4
+                </td>
+                <td>
+                    текст ячейки5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    текст ячейки1
+                </td>
+                <td>
+                    текст ячейки2
+                </td>
+                <td>
+                    текст ячейки4
+                </td>
+                <td>
+                    текст ячейки5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    текст ячейки1
+                </td>
+                <td>
+                    текст ячейки2
+                </td>
+                <td>
+                    текст ячейки3
+                </td>
+                <td colspan="2">
+                    текст ячейки4
+                </td>
 
-
-    <hr>
-    <p>&copy; Все права защищены</p>
+            </tr>
+            <tr>
+                <td>
+                    текст ячейки1
+                </td>
+                <td>
+                    текст ячейки2
+                </td>
+                <td>
+                    текст ячейки3
+                </td>
+                <td>
+                    текст ячейки4
+                </td>
+                <td>
+                    текст ячейки5
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer">
+        <hr>
+        <p>
+            &copy; Все права защищены
+        </p>
+    </div>
 </body>
 
 </html>
